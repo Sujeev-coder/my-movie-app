@@ -54,7 +54,7 @@ const Nav = () => {
 
             </div>
 
-            <div>{data.length >= 1 ? <Movie data={data} /> : <h2>No Data Found</h2>}</div>
+            <div>{data.length >= 1 ? <Movie data={data} /> :<center className='m-5'> <h2 className='text-xl'>No Data Found</h2></center>}</div>
 
         </>
 
